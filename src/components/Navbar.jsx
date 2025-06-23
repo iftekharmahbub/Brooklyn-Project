@@ -73,8 +73,8 @@ const Navbar = () => {
           {/* mobile menu */}
           <div
             className={`menu ${
-              active ? '-translate-x-0' : '-translate-x-full' 
-            } visible lg:hidden fixed lg:static bg-gray-700/50 lg:bg-transparent inset-0 transion-all duration-300`}
+              active ? 'scale-x-0' : '' 
+            } visible lg:hidden fixed lg:static bg-gray-700/50 lg:bg-transparent inset-0 origin-left lg:scale-x-100 transion-all duration-300`}
           >
             <ul
               className=" relative bg-flex justify-end gap-10 h-full 
@@ -92,11 +92,11 @@ const Navbar = () => {
                 </li>
               ))}
               <Button>Contact</Button>
-            </ul>
-            <span className="closeIcon text-3xl inline-block lg:hidden cursor-pointer absolute top-5 right-65"
+            <span className="closeIcon text-3xl inline-block lg:hidden cursor-pointer absolute top-5 right-15"
               onClick={() => setActive(!active)}>
               <MdOutlineClose />
             </span>
+            </ul>
           </div>
         </div>
       </nav>
