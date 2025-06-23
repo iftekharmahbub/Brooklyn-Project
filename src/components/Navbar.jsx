@@ -92,7 +92,7 @@ const Navbar = () => {
                 </li>
               ))}
               <Button>Contact</Button>
-            <span className="closeIcon text-3xl inline-block lg:hidden cursor-pointer absolute top-5 right-15"
+            <span className="closeIcon text-3xl inline-block lg:hidden bg-amber-50 rounded-2xl cursor-pointer absolute top-8 right-[-55px]"
               onClick={() => setActive(!active)}>
               <MdOutlineClose />
             </span>
