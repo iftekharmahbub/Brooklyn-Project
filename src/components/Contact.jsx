@@ -82,7 +82,7 @@ const Contact = () => {
 
             <div className="contact-box flex flex-col gap-4 mt-[35px]">
 
-              <ContactDetail logo={<IoLocation />} heading={'Address:'} title={'New Mexico 31134'} link={''} />
+              <ContactDetail logo={<IoLocation />} heading={'Address:'} title={'New Mexico 31134'} link={'www.facebook.com'} />
               <ContactDetail logo={<HiOutlineMail />} heading={'My Email:'} title={'mymail@mail.com'} link={'mailto:iftemahbub@gmail.com'} />
               <ContactDetail logo={<IoIosCall />} heading={'Call Me Now:'} title={'00-1234 00000'} link={'tel:+8801571335775'} />
             </div>
