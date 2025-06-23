@@ -73,7 +73,7 @@ const Navbar = () => {
           {/* mobile menu */}
           <div
             className={`menu ${
-              active ? 'scale-x-0' : '' 
+              !active ? 'scale-x-0' : '' 
             } visible lg:hidden fixed lg:static bg-gray-700/50 lg:bg-transparent inset-0 origin-left lg:scale-x-100 transion-all duration-300`}
           >
             <ul
