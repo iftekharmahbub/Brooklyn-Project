@@ -47,7 +47,7 @@ const Profile = () => {
                         <div className="profileImg py-15 lg:py-0 mb-8 lg:mb-0 relative max-w-[424px] lg:max-w-[100%] max-h-[468px]
                            mx-auto ">
                             {/* Social links */}
-                            <img src="/public/images/profile.png" className='w-full' alt="" />
+                            <img src="/images/profile.png" className='w-full' alt="" />
                             <div className="socialLinks flex w-full z-10 justify-center 
                             max-w-[260px] p-3 shadow-social bg-white absolute -translate-y-1/2 -translate-x-1/2 left-1/2 right-1/2" >
                                 {socialLinks.map((social) => (   

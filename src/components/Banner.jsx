@@ -33,7 +33,7 @@ const Banner = () => {
           <div className="bannerImg order-first lg:order-last ">
 
             <div className="Img">
-              <img src="/public/images/banner.png" alt=""
+              <img src="/images/banner.png" alt=""
                 className='max-w-3/4 lg:max-w-full mx-auto lg:mx-auto h-full' />
             </div>
 

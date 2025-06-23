@@ -13,12 +13,12 @@ const Client = () => {
                   </div>
           <div className="links grid grid-cols-2 lg:grid-cols-6 gap-8  mb-[50px] lg:mb-0">
             
-                      <ClientLink Imglink="/public/images/google-2.png"/>
-                      <ClientLink Imglink="/public/images/dribbble-2.png"/>
-                      <ClientLink Imglink="/public/images/linkedin-1.png"/>
-                      <ClientLink Imglink="/public/images/amazon-1.png"/>
-                      <ClientLink Imglink="/public/images/medium-2.png"/>
-                      <ClientLink Imglink="/public/images/spotify-1.png"/>
+                      <ClientLink Imglink="/images/google-2.png"/>
+                      <ClientLink Imglink="/images/dribbble-2.png"/>
+                      <ClientLink Imglink="/images/linkedin-1.png"/>
+                      <ClientLink Imglink="/images/amazon-1.png"/>
+                      <ClientLink Imglink="/images/medium-2.png"/>
+                      <ClientLink Imglink="/images/spotify-1.png"/>
                   </div>
               </div>
         </div>

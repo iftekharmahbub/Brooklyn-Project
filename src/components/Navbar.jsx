@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="container grid grid-cols-2 lg:grid-cols-3 items-center">
           <div className="logo ps-3.5 lg:ps-0 py-5 items-center">
             <a href="#">
-              <img src="/public/images/logo.png" alt="" />
+              <img src="/images/logo.png" alt="" />
             </a>
           </div>
 

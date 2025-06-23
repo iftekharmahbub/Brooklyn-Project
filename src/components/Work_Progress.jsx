@@ -26,13 +26,13 @@ const Work_Progress = () => {
 
                       <div className="progress-box grid md:grid-cols-2 grid-cols-1 gap-6 ">
                           <div className="First-column grid gap-6">
-                              <ProgressBox title={'1. Research'} image={'/public/images/progressIcon.png'} />
-                              <ProgressBox title={'2. Analyze'} image={'/public/images/progressIcon-2.png'} />
+                              <ProgressBox title={'1. Research'} image={'/images/progressIcon.png'} />
+                              <ProgressBox title={'2. Analyze'} image={'/images/progressIcon-2.png'} />
                               
                           </div>
                           <div className="Second-column grid gap-6 md:mt-10">
-                                <ProgressBox title={'3. Design'} image={'/public/images/progressIcon-3.png'} />
-                                <ProgressBox title={'4. Launch'} image={'/public/images/progressIcon-4.png'} />
+                                <ProgressBox title={'3. Design'} image={'/images/progressIcon-3.png'} />
+                                <ProgressBox title={'4. Launch'} image={'/images/progressIcon-4.png'} />
                              
                               
                           </div>

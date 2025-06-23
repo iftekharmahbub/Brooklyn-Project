@@ -17,12 +17,12 @@ const Portfolio = () => {
             </div>
 
             <div className="portfolioCards  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card cardImg={'/public/images/card-1.png'} />
-              <Card cardImg={'/public/images/card-2.png'} />
-              <Card cardImg={'/public/images/card-3.png'} />
-              <Card cardImg={'/public/images/card-4.png'} />
-              <Card cardImg={'/public/images/card-5.png'} />
-              <Card cardImg={'/public/images/card-6.png'} />
+              <Card cardImg={'/images/card-1.png'} />
+              <Card cardImg={'/images/card-2.png'} />
+              <Card cardImg={'/images/card-3.png'} />
+              <Card cardImg={'/images/card-4.png'} />
+              <Card cardImg={'/images/card-5.png'} />
+              <Card cardImg={'/images/card-6.png'} />
             </div>
 
             <Button className='mt-[50px]'>  More Project</Button>
