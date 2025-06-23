@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React , { useState } from 'react'
 import Button from '../utils/Button';
 import { TiThMenu } from 'react-icons/ti';
 import { MdOutlineClose } from 'react-icons/md';
@@ -73,8 +73,8 @@ const Navbar = () => {
           {/* mobile menu */}
           <div
             className={`menu ${
-              active ? '-scale100' : '-scale-0'
-            } visible lg:hidden fixed lg:static bg-gray-700/50 lg:bg-transparent inset-0`}
+              active ? '-translate-x-0' : '-translate-x-full' 
+            } visible lg:hidden fixed lg:static bg-gray-700/50 lg:bg-transparent inset-0 transion-all duration-300`}
           >
             <ul
               className=" relative bg-flex justify-end gap-10 h-full 
