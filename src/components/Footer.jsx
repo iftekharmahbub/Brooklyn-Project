@@ -34,7 +34,6 @@ const Footer = () => {
     ];
 
     const [toggle] = useState(false);
-
     return (
         <section
             id="footer"
