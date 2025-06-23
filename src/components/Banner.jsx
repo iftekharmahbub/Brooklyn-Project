@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../utils/Button';
-import ExperienceCard from '../utils/experienceCard';
+import ExperienceCard from '../utils/ExperienceCard';
 
 const Banner = () => {
   return (

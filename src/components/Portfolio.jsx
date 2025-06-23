@@ -1,6 +1,5 @@
 import React from 'react'
 import Heading from '../utils/Heading'
-import Detail from '../utils/Detail'
 import Card from '../utils/Card'
 import Button from '../utils/Button'
 import CmnText from '../utils/CmnText'
