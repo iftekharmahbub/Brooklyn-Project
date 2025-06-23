@@ -42,7 +42,11 @@ const Footer = () => {
             <div className="container grid lg:grid-cols-3 items-center">
                 <div className="logo my-5 lg:my-0 text-white text-center items-center hidden lg:block">
 
-                        <img src="/public/images/footerlogo.png" className="max-w-[40%] lg:max-w-full text-white" alt="" />
+                        <img
+                            src="/public/images/footerlogo.png"
+                            className="max-w-[40%] lg:max-w-full text-white"
+                            alt="Picto company logo displayed in the website footer, set against a dark background, conveying a professional and modern atmosphere"
+                        />
                     
                 </div>
                 <div className="hidden lg:block">
