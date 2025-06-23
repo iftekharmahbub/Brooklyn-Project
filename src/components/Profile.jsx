@@ -44,12 +44,9 @@ const Profile = () => {
                     <div className="shadow-custom pb-15 lg:p-[112px] 
                                     grid lg:grid-cols-2 gap-25 items-center bg-white rounded-2xl">
 
-
                         <div className="profileImg py-15 lg:py-0 mb-8 lg:mb-0 relative max-w-[424px] lg:max-w-[100%] max-h-[468px]
                            mx-auto ">
-
                             {/* Social links */}
-
                             <img src="/public/images/profile.png" className='w-full' alt="" />
                             <div className="socialLinks flex w-full z-10 justify-center 
                             max-w-[260px] p-3 shadow-social bg-white absolute -translate-y-1/2 -translate-x-1/2 left-1/2 right-1/2" >
@@ -59,10 +56,7 @@ const Profile = () => {
                                         href={social.link} key={social.id}>{social.icon}</a>
                                 ))}
                             </div>
-
                         </div>
-
-
                         <div className="profileInfo flex flex-col justidfy-start px-8 lg:px-0">
                             
                             <Heading>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Profile from './components/profile'
+import Profile from './components/Profile'
 import Banner from './components/Banner'
 import Work_Progress from './components/Work_Progress'
 import Portfolio from './components/Portfolio'
