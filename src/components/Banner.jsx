@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
       <section id="banner " className=" mt-8">
-        <div className=" bg-[#FEFFFE] container lg:py-[80px] grid grid-cols-1 lg:grid-cols-2 items-center justify-between lg:gap-32">
+        <div className=" bg-[#FEFFFE] container py-[80px] grid grid-cols-1 lg:grid-cols-2 items-center justify-between lg:gap-32">
 
           <div className="bannerCnt order-last lg:order-first flex-col justify-center items-start gap-6 ps-3.5">
             <h4 className="font-medium text-7xl leading-[117%] pt-[22px] text-gray-900">
@@ -22,7 +22,7 @@ const Banner = () => {
             </p>
             <Button >Say Hello</Button>
 
-            <div className="cards gap-4 grid grid-cols-1 mx-auto lg:mx-0 w-full lg:grid-cols-3 mt-10 lg:mt-0 ">
+            <div className="cards gap-4 grid grid-cols-1 mx-auto lg:mx-0 w-full lg:grid-cols-3 mt-10 ">
               <ExperienceCard cardIndex="15" cardText="Y." cardTitle="Experience" />
               <ExperienceCard cardIndex="250" cardText="+" cardTitle="Projects Completed" />
               <ExperienceCard cardIndex="65" cardText="" cardTitle="Happy Clients" />
